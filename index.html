@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="form-div">
+        <label for="no">Enter The number</label>
+        <input type="text" id="no" /><br /><br />
+        <label for="name">Enter Name</label>
+        <input type="text" id="name" /><br /><br />
+        <label for="age">Enter Age</label>
+        <input type="text" id="age" /><br /><br />
+        <p id="para"></p>
+        <button id="add" onclick="data();">add</button>
+    </div>
+
+    <div class="table-div">
+        <table border="1" width="500">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Age</th>
+              </tr>
+            </thead>
+            <tbody id="bind"></tbody>
+          </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

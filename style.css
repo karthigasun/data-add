@@ -1,6 +1,90 @@
-.form-div{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.all{
+    width: 100%;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.form-name{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-label,.form-in{
+    width: 50%;
+    margin: 10px 0px;
+}
+.form-label{
+    text-align:start;
+}
+.form-btn{
     text-align: center;
+    margin-top: 20px;
+}
+.form-btn button{
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 14px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #1d29aa;
+    border:none;
+    color: #fff;
+    transition: 0.3s;
+}
+.form-btn button:hover{
+    background: transparent;
+    outline: 1px solid black;
+    color: #fff;
+}
+#para{
+    color: #f22424;
+}
+label,p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 800;
+}
+input{
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: none;
+}
+input:focus{
+    outline: 1px solid #ddd;
+}
+.form-div{
+    background: linear-gradient(90deg, rgba(125,209,228,1) 0%, rgba(34,66,168,1) 0%, rgba(22,2,246,1) 0%);
+    padding: 20px;
+    border-radius: 20px;
+}
+caption{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 .table-div{
-    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+table{
+    background-color: #2485f2;
+    border: 1px solid #fff;
+    width: 100%;
+}
+td{
+    text-align: center;
+}
+th,td{
+    padding: 6px 12px;
+    color: #fff;
+}
+#all{
+    background: linear-gradient(90deg, rgba(125,209,228,1) 0%, rgba(2,246,243,1) 0%, rgba(38,224,228,1) 29%);
+    height: 100vh;
 }

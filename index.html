@@ -9,29 +9,54 @@
   </head>
   <body>
 
-    <div class="form-div">
-        <label for="no">Enter The number</label>
-        <input type="text" id="no" /><br /><br />
-        <label for="name">Enter Name</label>
-        <input type="text" id="name" /><br /><br />
-        <label for="age">Enter Age</label>
-        <input type="text" id="age" /><br /><br />
-        <p id="para"></p>
-        <button id="add" onclick="data();">add</button>
-    </div>
-
-    <div class="table-div">
-        <table border="1" width="500">
-            <thead>
-              <tr>
-                <th>No</th>
-                <th>Name</th>
-                <th>Age</th>
-              </tr>
-            </thead>
-            <tbody id="bind"></tbody>
-          </table>
-    </div>
+    <section id="all">
+      <section class="container">
+        <div class="form-div">
+          <div class="form-name">
+            <div class="form-label">
+              <label for="no">Enter The number</label>
+            </div>
+            <div class="form-in">
+              <input type="number" id="no" placeholder="Enter Seriel No">
+            </div>
+          </div>
+          <div class="form-name">
+            <div class="form-label">
+              <label for="name">Enter Name</label>
+            </div>
+            <div class="form-in">
+              <input type="text" id="name" placeholder="Enter Your Name">
+            </div>
+          </div>
+          <div class="form-name">
+            <div class="form-label">
+              <label for="age">Enter Age</label>
+            </div>
+            <div class="form-in">
+              <input type="number" id="age" placeholder="Enter Your Age">
+            </div>
+          </div>
+            <p id="para"></p>
+          <div class="form-btn">
+            <button id="add" onclick="data();">Add Data</button>
+          </div>
+      </div>
+  
+      <div class="table-div">
+          <table border= "1">
+            <caption>Data Table</caption>
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Name</th>
+                  <th>Age</th>
+                </tr>
+              </thead>
+              <tbody id="bind"></tbody>
+            </table>
+      </div>
+      </section>
+    </section>
 
     <script src="script.js"></script>
   </body>
